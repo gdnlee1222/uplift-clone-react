@@ -1,0 +1,56 @@
+.hero {
+    padding: 200px;
+    background-color: none;
+    background-repeat: repeat;
+    background-image: radial-gradient(
+        circle closest-corner at 50% 50%,
+        white 30%,
+        rgba(255, 255, 255, 0.5) 50%
+      ),
+      url(https://www.upliftcodecamp.com/circuit-board.svg);
+  }
+
+p {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+    color: #333;
+    text-align: center;
+}
+  
+h1 {
+    display: block;
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+span {
+    display: block;
+    color: blueviolet;
+}
+  
+.btn-primary {
+    padding: 25px 20px 25px 20px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 1em;
+    transition: background-color .3s ease;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+    border-color: red;
+}
+
+.btn-primary:active {
+    transform: scale(0.95); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
